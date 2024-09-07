@@ -1,26 +1,3 @@
-<!-- <?php
-
-function telegram($name, $phone, $message){
-  $key = "7256933927:AAFy19j4RNhJ_xsnOypGdafRqWMAY6LNX3Q";
-	$chat_id = "-1002245094753";
-  echo $chat_id;
-  
-		$ch = curl_init("https://api.telegram.org/bot".$key."/sendMessage?chat_id=".$chat_id."&text=<b>From:</b>%20".$name."%0a<i>".$phone."</i>%0a<b>Message:%0a</b>".$message."&parse_mode=HTML");
-      
-      curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-      curl_setopt($ch, CURLOPT_HEADER, 0);
-      $data = curl_exec($ch);
-      curl_close($ch);
-    }
-if(isset($_POST['submit'])){
-$name = $_POST['name'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
-telegram($name, $phone, $message);
-}
-
-?> -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,8 +5,11 @@ telegram($name, $phone, $message);
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adora Gifts</title>
-    <link rel="stylesheet" href="gallery.css" />
-    <link rel="stylesheet" href="style.css" />
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+	    <link rel="stylesheet" href="gallery.css" />
+	    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
