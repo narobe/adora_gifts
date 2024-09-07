@@ -1,0 +1,391 @@
+<!-- <?php
+
+function telegram($name, $phone, $message){
+  $key = "7256933927:AAFy19j4RNhJ_xsnOypGdafRqWMAY6LNX3Q";
+	$chat_id = "-1002245094753";
+  echo $chat_id;
+  
+		$ch = curl_init("https://api.telegram.org/bot".$key."/sendMessage?chat_id=".$chat_id."&text=<b>From:</b>%20".$name."%0a<i>".$phone."</i>%0a<b>Message:%0a</b>".$message."&parse_mode=HTML");
+      
+      curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+      curl_setopt($ch, CURLOPT_HEADER, 0);
+      $data = curl_exec($ch);
+      curl_close($ch);
+    }
+if(isset($_POST['submit'])){
+$name = $_POST['name'];
+$phone = $_POST['phone'];
+$message = $_POST['message'];
+telegram($name, $phone, $message);
+}
+
+?> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adora Gifts</title>
+    <link rel="stylesheet" href="gallery.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="banner">
+          <div class="banner-bg">
+            <div class="profile">
+              <div class="title">
+                <h1>Adora Gifts</h1>
+                <p>For Your Joy</p>
+              </div>
+              <div class="logo">
+                <img src="./IMG/logo.svg" alt="Logo" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="front">
+          <div class="navigator">
+            <div data-index="1" class="nav-item active">Contact</div>
+            <div data-index="2" class="nav-item">Home</div>
+            <div data-index="3" class="nav-item">Gallery</div>
+            <div data-index="4" class="nav-item">Packages</div>
+            <div class="indicator"></div>
+          </div>
+          <div>
+            <div class="screen">
+              <div class="wrapper">
+                <div data-index="1" class="screen-container contact active">
+                    <div class="contact-info">
+                      <div class="icon-box">
+                        <img src="./IMG/ICONS/location-dot.svg" alt="" />
+                      </div>
+                      <div class="info-box">
+                        <p>Lebu Mebrat, Ayham Building, 1st floor</p>
+                      </div>
+                      <div class="icon-box">
+                        <img src="./IMG/ICONS/phone.svg" alt="" />
+                      </div>
+                      <div class="info-box">
+                        <p><a href="tel:0983516809">0983516809</a></p>
+                        <p><a href="tel:0925896100">0925896100</a></p>
+                      </div>
+                    </div>
+                    <div class="social-address">
+                      <div>
+                        <img src="./IMG/ICONS/instagram.svg" alt="" />
+                        <a href="https://instagram.com/adora_gifts1">/adora_gifts1</a>
+                      </div>
+                      <div>
+                        <img src="./IMG/ICONS/tiktok.svg" alt="" />
+                        <a href="https://tiktok.com/adora_gifts">/adora_gifts</a>
+                      </div>
+                      <div>
+                        <img src="./IMG/ICONS/telegram.svg" alt="" />
+                        <a href="https://telegram.com/adoragifts">/adoragifts</a>
+                      </div>
+                    </div>
+                    <div class="form">
+                      <form action="./" method="POST">
+                        <input type="text" name="name" placeholder="Name" />
+                        <input type="tel" name="phone" placeholder="Phone" />
+                        <textarea
+                          name="message"
+                          rows="3"
+                          placeholder="Message"
+                        ></textarea>
+                        <input type="submit" name="submit" value="Send Message" />
+                      </form>
+                    </div>
+                </div>
+                <div data-index="2" class="screen-container">
+
+                    <img class="hero-img" src="./IMG/hero.svg" alt="" />
+
+                </div>
+                <div data-index="3" class="screen-container">
+                  <div class="bottom-blur-div"></div>
+                  <div class="magnific-img-container">
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163654_275.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163654_275.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163730_400.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163730_400.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163752_320.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163752_320.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163826_565.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163826_565.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163908_062.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163908_062.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_164155_803.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_164155_803.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163654_275.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163654_275.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163730_400.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163730_400.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163752_320.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163752_320.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163826_565.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163826_565.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163908_062.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163908_062.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_164155_803.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_164155_803.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163654_275.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163654_275.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163730_400.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163730_400.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163752_320.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163752_320.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163826_565.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163826_565.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_163908_062.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_163908_062.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                    <div class="magnific-img">
+                      <a class="image-popup-vertical-fit" href="./IMG/IMG_20240903_164155_803.jpg" title="Hexagon wedding set">
+                        <img src="./IMG/IMG_20240903_164155_803.jpg" alt="5.jpg" />
+                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-index="4"
+                  class="screen-container packages bottom-blur"
+                >
+                  <div>
+                    <ul>
+                      <li class="package-list">
+                        <div class="li-img">
+                          <img src="IMG/Package_20240906_181153293.jpg" alt="" />
+                        </div>
+                        <div class="info">
+                          <div>
+                            <h3>Hexagon wedding set</h3>
+                            <p class="description">with free delivery</p>
+                          </div>
+                          <div class="button">
+                            <button>
+                              Save <img src="./IMG/ICONS/heart.svg" alt="" />
+                            </button>
+                          </div>
+                          <div class="rating">
+                            <div class="stars">
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                            </div>
+                            <p>5.0 <span>(25 Reviews)</span></p>
+                          </div>
+                          <div class="price">
+                            <p>$14,650</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="package-list">
+                        <div class="li-img">
+                          <img src="IMG/Package_20240906_181007748.jpg" alt="" />
+                        </div>
+                        <div class="info">
+                          <div>
+                            <h3>Hexagon wedding set</h3>
+                            <p class="description">with free delivery</p>
+                          </div>
+                          <div class="button">
+                            <button>
+                              Save <img src="./IMG/ICONS/heart.svg" alt="" />
+                            </button>
+                          </div>
+                          <div class="rating">
+                            <div class="stars">
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                            </div>
+                            <p>5.0 <span>(25 Reviews)</span></p>
+                          </div>
+                          <div class="price">
+                            <p>$8,950</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="package-list">
+                        <div class="li-img">
+                          <img src="IMG/Package_20240906_181113065.jpg" alt="" />
+                        </div>
+                        <div class="info">
+                          <div>
+                            <h3>Hexagon wedding set</h3>
+                            <p class="description">with free delivery</p>
+                          </div>
+                          <div class="button">
+                            <button>
+                              Save <img src="./IMG/ICONS/heart.svg" alt="" />
+                            </button>
+                          </div>
+                          <div class="rating">
+                            <div class="stars">
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                            </div>
+                            <p>5.0 <span>(25 Reviews)</span></p>
+                          </div>
+                          <div class="price">
+                            <p>$9,450</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="package-list">
+                        <div class="li-img">
+                          <img src="IMG/Package_20240906_181251559.jpg" alt="" />
+                        </div>
+                        <div class="info">
+                          <div>
+                            <h3>Hexagon wedding set</h3>
+                            <p class="description">with free delivery</p>
+                          </div>
+                          <div class="button">
+                            <button>
+                              Save <img src="./IMG/ICONS/heart.svg" alt="" />
+                            </button>
+                          </div>
+                          <div class="rating">
+                            <div class="stars">
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                              <img src="./IMG/ICONS/star.svg" alt="" />
+                            </div>
+                            <p>5.0 <span>(25 Reviews)</span></p>
+                          </div>
+                          <div class="price">
+                            <p>$7,500</p>
+                          </div>
+                        </div>
+                      </li>
+                      <div class="bottom-blur-div"></div>
+                    </div>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+            <div class="tool-bar">
+              <div class="tool-bar-item share-container">
+                <img
+                  class="tool-bar-icon"
+                  src="./IMG/ICONS/share.svg"
+                  alt="Share Icon"
+                />
+                <span class="tool-bar-text">Share</span>
+              </div>
+              <div class="tool-bar-item">
+                <img
+                  class="tool-bar-icon"
+                  src="./IMG/ICONS/cart-shopping.svg"
+                  alt="Share Icon"
+                />
+                <span class="tool-bar-text">Order Now</span>
+              </div>
+              <div class="tool-bar-item save-contact">
+                <img
+                  class="tool-bar-icon"
+                  src="./IMG/ICONS/download.svg"
+                  alt="Share Icon"
+                />
+                <span class="tool-bar-text">Save Contact</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="responsive">
+        <img src="./IMG/ICONS/mobile-button.svg" alt="Mobile Icon" />
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+    <script src='jquery.min.js'></script>
+    <script src='jquery.magnific-popup.min.js'></script>
+    <script  src="./script2.js"></script>
+    
+
+  </body>
+</html>

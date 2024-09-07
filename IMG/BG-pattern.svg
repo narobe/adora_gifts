@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430" height="390.5" viewBox="0 0 430 390.5">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.15;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f25b3d"/>
+      <stop offset="0.531" stop-color="#f25b3d" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f25a3c"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1035" data-name="Group 1035" transform="translate(0 0.5)">
+    <g id="Group_1034" data-name="Group 1034" class="cls-1" transform="translate(12.961 -433)">
+      <path id="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(71.78 576.328)"/>
+      <path id="hexagon-2" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(71.78 436.021)"/>
+      <path id="hexagon-3" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(71.78 646.482)"/>
+      <path id="hexagon-4" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(71.78 506.175)"/>
+      <path id="hexagon-5" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(71.78 716.636)"/>
+      <path id="hexagon-6" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(193.626 576.328)"/>
+      <path id="hexagon-7" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(315.473 576.328)"/>
+      <path id="hexagon-8" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(193.626 646.482)"/>
+      <path id="hexagon-9" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(315.473 646.482)"/>
+      <path id="hexagon-10" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(193.626 506.175)"/>
+      <path id="hexagon-11" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(315.473 506.175)"/>
+      <path id="hexagon-12" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(193.626 436.021)"/>
+      <path id="hexagon-13" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(315.473 436.021)"/>
+      <path id="hexagon-14" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(193.626 716.636)"/>
+      <path id="hexagon-15" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(315.473 716.636)"/>
+      <path id="hexagon-16" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(132.703 541.252)"/>
+      <path id="hexagon-17" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(132.703 400.944)"/>
+      <path id="hexagon-18" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(132.703 611.405)"/>
+      <path id="hexagon-19" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(132.703 471.098)"/>
+      <path id="hexagon-20" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(132.703 680.636)"/>
+      <path id="hexagon-21" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(254.549 541.252)"/>
+      <path id="hexagon-22" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(254.549 400.944)"/>
+      <path id="hexagon-23" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(10.857 541.252)"/>
+      <path id="hexagon-24" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(10.857 400.944)"/>
+      <path id="hexagon-25" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(254.549 611.405)"/>
+      <path id="hexagon-26" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(254.549 471.098)"/>
+      <path id="hexagon-27" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(10.857 611.405)"/>
+      <path id="hexagon-28" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(10.857 471.098)"/>
+      <path id="hexagon-29" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(254.549 680.636)"/>
+      <path id="hexagon-30" data-name="hexagon" class="cls-2" d="M19.527,32.056.143,66.21l19.385,34.154H59.22L78.6,66.21,59.22,32.056Z" transform="translate(10.857 680.636)"/>
+    </g>
+    <path id="Rectangle_43" data-name="Rectangle 43" class="cls-3" d="M0,0H430a0,0,0,0,1,0,0V360a30,30,0,0,1-30,30H30A30,30,0,0,1,0,360V0A0,0,0,0,1,0,0Z"/>
+  </g>
+</svg>
